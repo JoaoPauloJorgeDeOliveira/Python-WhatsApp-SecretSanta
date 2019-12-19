@@ -1,5 +1,5 @@
 from time import sleep
-from whatsapp_api_JPO import WhatsApp_JPO
+from whatsapp_api import WhatsApp
 from RandomDraw import draw
 
 groupName = 'Todos os migues do'
@@ -8,7 +8,7 @@ msg = "Olá, aqui é o Jonas' bot."
 eu = 'João Paulo Bot'
 
 # Starting Chrome session:
-wp = WhatsApp_JPO()                     # Abre Chrome já na página do WhatsApp Web.
+wp = WhatsApp()                         # Abre Chrome já na página do WhatsApp Web.
 input('Press after QR code scan.')      # Waiting for QR code scan.
 
 # Getting list of participants from group:
